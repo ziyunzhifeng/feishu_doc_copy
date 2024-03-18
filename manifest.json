@@ -1,0 +1,19 @@
+{
+    "name": "飞书文档复制工具",
+    "manifest_version": 4,
+    "version": "1.0",
+    "description": "飞书文档复制工具",
+    "action": {
+      "default_icon": "logo.png"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "*://*/*"
+        ],
+        "js": [
+          "index.js"
+        ]
+      }
+    ]
+  }
